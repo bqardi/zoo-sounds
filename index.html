@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Small project focused on form validation and Objects">
+    <title>Zoo Zounds</title>
+    <link rel="preload stylesheet" href="./css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/style.css"></noscript>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png">
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="zoo" class="zoo">
+            <form id="form" class="form" style="top:100px;left:200px;max-width: 300px;">
+                <input id="animalName" type="text">
+                <select name="animalType" id="animalType">
+                    <option value="choice">Choose emoji</option>
+                    <option value="bear">Bear</option>
+                    <option value="elephant">Elephant</option>
+                    <option value="graywolf">Graywolf</option>
+                    <option value="lion">Lion</option>
+                    <option value="penguins">Penguins</option>
+                    <option value="tiger">Tiger</option>
+                </select>
+                <select name="animation" id="animation">
+                    <option value="Animation1">Animation1</option>
+                    <option value="Animation2">Animation2</option>
+                </select>
+                <button type="submit">Create</button>
+            </form>
+            <!-- <div class="cage">
+                <img src="./images/bear.png" alt="Elephant" class="animal">
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
