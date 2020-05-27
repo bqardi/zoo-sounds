@@ -51,6 +51,10 @@ a:hover {
     cursor: pointer;
 }
 
+.zookeeper .animal {
+    max-width: 100px;
+}
+
 .cage {
     position: absolute;
     background-image: url(../images/cage.png);
